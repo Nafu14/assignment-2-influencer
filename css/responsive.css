@@ -1,0 +1,115 @@
+@media(max-width:1200px){
+    .container{
+        width: 95%;
+    }
+    h1{
+        font-size: 42px;
+        color: var(--headingColor);
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 80%;
+    }
+    .menu ul li{
+        padding: .5rem;
+    }
+    .menu ul{
+        display: flex;
+        justify-content: center;
+    }
+    .cardCollection{
+        justify-content: center;
+        grid-gap: 30px;
+    }
+}
+@media(max-width:996px){
+    .bannerImg img{
+        height: 100%;
+        width: 80%;
+    }
+    .companyLogo{
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+    }
+    
+    .cardCollection{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        grid-gap: 30px;
+    }
+}
+@media(max-width:720px){
+    .menu ul{
+        display: none;
+    }
+    .menu{
+        text-align: end;
+    }
+    .menu>span{
+        display: block;
+    }
+    .menu span i{
+        color: var(--headingColor);
+    }
+    .bannerImg{
+        margin-top: 50px;
+    }
+    .bannerImg img{
+        height: 90%;
+        width: 75%;
+    }
+    .banner{
+        display: grid;
+        grid-template-columns: repeat(1,6fr);
+        justify-content: center;
+    }
+    .companyLogo{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .compLogo{
+        margin: 10px;
+    }
+    .cardEnd{
+        font-size: 14px;
+        color: var(--headingColor);
+        padding-right: 50px;
+        margin: 10px 0;
+    }
+    .seeMore{
+        text-align: center;
+    }
+}
+@media(max-width:650px){
+    .cardCollection{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        grid-gap: 30px;
+        margin: 25px;
+    }
+    .findInput{
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+}
+@media(max-width:370px){
+    h1{
+        font-size: 36px;
+        color: var(--headingColor);
+    }
+    h2{
+        font-size: 1.75rem;
+    }
+    h3{
+        font-size: 1.25rem;
+    }
+    .compLogo img{
+        width: 75%;
+    }
+}

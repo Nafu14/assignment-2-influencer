@@ -97,6 +97,9 @@
         font-size: 16px;
         padding: 10px 25px;
     }
+    .companyLogo{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 @media(max-width:370px){
     h1{
